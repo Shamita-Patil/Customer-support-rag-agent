@@ -86,13 +86,13 @@
       "parameters": {
         "toolDescription": "Search the company knowledge base for information to answer customer questions",
         "method": "POST",
-        "url": "https://prod-1-data.ke.pinecone.io/assistant/chat/policydocumentsdb",
+        "url": "YOUR_PINECONE_INDEX_HOST",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
             {
               "name": "Api-Key",
-              "value": "pcsk_4AuRq1_gWgVBPrEhSJWpLvbwr3ejT4cFZQ6zmBeNQuWiG4r9s1hGSFCEbfLvPrfmwdf8Y"
+              "value": "YOUR_PINECONE_API_KEY"
             }
           ]
         },
